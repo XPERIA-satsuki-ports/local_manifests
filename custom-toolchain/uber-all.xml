@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="ubertc"
+           fetch="https://bitbucket.org/DespairFactor/" />
+
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />    
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+
+  <!-- arm-eabi-* -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="ubertc" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" name="arm-eabi-5.x" remote="ubertc" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="arm-eabi-6.x" remote="ubertc" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="arm-eabi-7.0" remote="ubertc" revision="master" />
+  
+  <!-- aarch64-linux-android-* -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="ubertc" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="aarch64-linux-android-4.9-kernel" remote="ubertc" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel" name="aarch64-linux-android-5.x-kernel" remote="ubertc" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel" name="aarch64-linux-android-6.x-kernel" remote="ubertc" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0-kernel" name="aarch64-linux-android-7.0-kernel" remote="ubertc" revision="master" />
+
+  <!-- arm-linux-androideabi-* -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="ubertc" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="arm-linux-androideabi-5.x" remote="ubertc" revision="master" />
+
+</manifest>
