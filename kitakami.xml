@@ -8,8 +8,8 @@
 
  <!-- Sony-Kitakami -->
  <project name="Sony-Kitakami/android_device_sony_kitakami"               path="device/sony/kitakami"                 remote="github" revision="cm-13.0" />
- <project name="Sony-Kitakami/android_device_sony_satsuki"                path="device/sony/satsuki"                  remote="github" revision="cm-13.0" />
- <project name="Sony-Kitakami/android_device_sony_satsuki"                path="device/sony/satsuki"                  remote="github" revision="cm-13.0" />
+ <project name="Sony-Kitakami/android_device_sony_sumire"                 path="device/sony/sumire"                   remote="github" revision="cm-13.0" />
+ <project name="Sony-Kitakami/android_device_sony_suzuran"                path="device/sony/suzuran"                  remote="github" revision="cm-13.0" />
  <project name="Sony-Kitakami/android_device_sony_satsuki"                path="device/sony/satsuki"                  remote="github" revision="cm-13.0" />
  <project name="Sony-Kitakami/android_device_sony_sepolicy"               path="device/sony/sepolicy"                 remote="github" revision="cm-13.0" />
  <project name="Sony-Kitakami/android_kernel_sony"                        path="kernel/sony/"                         remote="github" revision="cm-13.0" />
