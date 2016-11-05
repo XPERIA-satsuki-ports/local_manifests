@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="ubertc"
-           fetch="https://bitbucket.org/DespairFactor/" />
+           fetch="https://bitbucket.org/mdalexca/" />
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />    
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
