@@ -11,14 +11,12 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="ubertc" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" name="arm-eabi-5.x" remote="ubertc" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="arm-eabi-6.x" remote="ubertc" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.x" name="arm-eabi-7.x" remote="ubertc" revision="master" />
   
   <!-- aarch64-linux-android-* -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="ubertc" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="aarch64-linux-android-4.9" remote="ubertc" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel" name="aarch64-linux-android-5.x" remote="ubertc" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel" name="aarch64-linux-android-6.x" remote="ubertc" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x-kernel" name="aarch64-linux-android-7.x" remote="ubertc" revision="master" />
 
   <!-- arm-linux-androideabi-* -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="ubertc" revision="master" />
