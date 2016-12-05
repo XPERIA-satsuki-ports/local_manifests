@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remote  name="Xperia-Z5P-RR"
-          fetch="https://github.com/Xperia-Z5P-RR"
+ <remote  name="XPERIA-satsuki-ports"
+          fetch="https://github.com/XPERIA-satsuki-ports"
           revision="cm-14.1" />
 
  <!-- -Removed- -->
@@ -32,9 +32,9 @@
  <project name="CyanogenMod/android_device_qcom_common"                   path="device/qcom/common"                   remote="github" revision="cm-14.1" />
  <project name="CyanogenMod/android_hardware_sony_macaddrsetup"           path="hardware/sony/macaddrsetup"           remote="github" revision="cm-14.1" />
 
-<!-- Xperia-Z5P-RR -->
- <project name="android_kernel_sony"                                      path="kernel/sony"                          remote="Xperia-Z5P-RR" />
- <project name="android_device_sony_kitakami"                             path="device/sony/kitakami"                 remote="Xperia-Z5P-RR" />
- <project name="android_device_sony_satsuki"                              path="device/sony/satsuki"                  remote="Xperia-Z5P-RR" />
+<!-- XPERIA-satsuki-ports -->
+ <project name="android_kernel_sony"                                      path="kernel/sony"                          remote="XPERIA-satsuki-ports" />
+ <project name="android_device_sony_kitakami"                             path="device/sony/kitakami"                 remote="XPERIA-satsuki-ports" />
+ <project name="android_device_sony_satsuki"                              path="device/sony/satsuki"                  remote="XPERIA-satsuki-ports" />
 
 </manifest>
