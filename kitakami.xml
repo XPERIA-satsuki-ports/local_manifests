@@ -39,6 +39,7 @@
 
  <!-- XPERIA-satsuki-ports -->
  <project name="android_kernel_sony"                                      path="kernel/sony"                          remote="XPERIA-satsuki-ports" />
+ <project name="android_kernel_sony"                                      path="kernel/sony-recovery"                          remote="XPERIA-satsuki-ports" revision="recovery" />
  <project name="android_device_sony_kitakami"                             path="device/sony/kitakami"                 remote="XPERIA-satsuki-ports" />
  <project name="android_device_sony_satsuki"                              path="device/sony/satsuki"                  remote="XPERIA-satsuki-ports" />
  <project name="android_hardware_sony_camera"                             path="hardware/sony/camera"                 remote="XPERIA-satsuki-ports" />
