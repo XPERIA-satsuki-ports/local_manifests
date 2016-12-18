@@ -27,9 +27,11 @@
  <project name="sonyxperiadev/timekeep"               path="hardware/sony/timekeep"               remote="github" revision="master" />
  <project name="sonyxperiadev/macaddrsetup"           path="hardware/sony/macaddrsetup"           remote="github" revision="master" />
 
- <!-- Super Benevolent -->
- <project name="SuperBenevolent/aosp-vendor-qcom-prebuilt"                path="vendor/qcom/prebuilt"                 remote="github" revision="m-mr1" />
- <project name="SuperBenevolent/aosp-vendor-sony"                         path="vendor/sony"                          remote="github" revision="m-mr1" />
+ <!--SonyAOSP-->
+ <project name="SonyAOSP/vendor_sony"                         path="vendor/sony"                          remote="github" revision="android-7.0" />
+ <project name="SonyAOSP/vendor_qcom"                path="vendor/qcom/"                 remote="github" revision="android-7.0" />
+ <project name="SonyAOSP/vendor_qcom_firmware"                path="vendor/qcom/firmware"                 remote="github" revision="android-7.0" />
+ <project name="SonyAOSP/vendor_nxp"                path="vendor/nxp/"                 remote="github" revision="android-7.0" />
 
  <!-- Cyanogen Mod -->
  <project name="CyanogenMod/android_device_qcom_common"                   path="device/qcom/common"                   remote="github" revision="cm-14.1" />
