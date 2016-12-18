@@ -19,27 +19,28 @@
  
  <!-- Sony Xperia Dev -->
  <project name="sonyxperiadev/vendor-qcom-opensource-dataservices"        path="vendor/qcom/opensource/dataservices"  remote="github" revision="master" />
+ <project name="sonyxperiadev/device-sony-common"                         path="device/sony/common"                   remote="github" revision="master" />
  <project name="sonyxperiadev/device-sony-common-headers"                 path="device/sony/common-headers"           remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
- <project name="sonyxperiadev/device-sony-sepolicy"               path="device/sony/sepolicy"                 remote="github" revision="master" />
- <project name="sonyxperiadev/device-sony-common-init"           path="hardware/sony/init"                   remote="github" revision="master" />
- <project name="sonyxperiadev/packages-apps-FMRadio"                 path="packages/apps/FMRadio"                   remote="github" revision="master" />
- <project name="sonyxperiadev/thermanager"          path="hardware/sony/thermanager"            remote="github" revision="master" />
- <project name="sonyxperiadev/timekeep"               path="hardware/sony/timekeep"               remote="github" revision="master" />
- <project name="sonyxperiadev/macaddrsetup"           path="hardware/sony/macaddrsetup"           remote="github" revision="master" />
+ <project name="sonyxperiadev/device-sony-sepolicy"                       path="device/sony/sepolicy"                 remote="github" revision="master" />
+ <project name="sonyxperiadev/device-sony-common-init"                    path="hardware/sony/init"                   remote="github" revision="master" />
+ <project name="sonyxperiadev/packages-apps-FMRadio"                      path="packages/apps/FMRadio"                remote="github" revision="master" />
+ <project name="sonyxperiadev/thermanager"                                path="hardware/sony/thermanager"            remote="github" revision="master" />
+ <project name="sonyxperiadev/timekeep"                                   path="hardware/sony/timekeep"               remote="github" revision="master" />
+ <project name="sonyxperiadev/macaddrsetup"                               path="hardware/sony/macaddrsetup"           remote="github" revision="master" />
 
  <!--SonyAOSP-->
- <project name="SonyAOSP/vendor_sony"                         path="vendor/sony"                          remote="github" revision="android-7.0" />
- <project name="SonyAOSP/vendor_qcom"                path="vendor/qcom/"                 remote="github" revision="android-7.0" />
- <project name="SonyAOSP/vendor_qcom_firmware"                path="vendor/qcom/firmware"                 remote="github" revision="android-7.0" />
- <project name="SonyAOSP/vendor_nxp"                path="vendor/nxp/"                 remote="github" revision="android-7.0" />
+ <project name="SonyAOSP/vendor_sony"                                     path="vendor/sony"                          remote="github" revision="android-7.0" />
+ <project name="SonyAOSP/vendor_qcom"                                     path="vendor/qcom/"                         remote="github" revision="android-7.0" />
+ <project name="SonyAOSP/vendor_qcom_firmware"                            path="vendor/qcom/firmware"                 remote="github" revision="android-7.0" />
+ <project name="SonyAOSP/vendor_nxp"                                      path="vendor/nxp/"                          remote="github" revision="android-7.0" />
 
  <!-- Cyanogen Mod -->
  <project name="CyanogenMod/android_device_qcom_common"                   path="device/qcom/common"                   remote="github" revision="cm-14.1" />
 
-<!-- XPERIA-satsuki-ports -->
+ <!-- XPERIA-satsuki-ports -->
  <project name="android_kernel_sony"                                      path="kernel/sony"                          remote="XPERIA-satsuki-ports" />
  <project name="android_device_sony_kitakami"                             path="device/sony/kitakami"                 remote="XPERIA-satsuki-ports" />
  <project name="android_device_sony_satsuki"                              path="device/sony/satsuki"                  remote="XPERIA-satsuki-ports" />
- <project name="android_hardware_sony_camera"               path="hardware/sony/camera"                 remote="XPERIA-satsuki-ports" />
+ <project name="android_hardware_sony_camera"                             path="hardware/sony/camera"                 remote="XPERIA-satsuki-ports" />
 
 </manifest>
