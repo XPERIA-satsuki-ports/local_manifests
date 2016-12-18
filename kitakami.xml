@@ -23,16 +23,16 @@
  <project name="sonyxperiadev/device-sony-sepolicy"               path="device/sony/sepolicy"                 remote="github" revision="master" />
  <project name="sonyxperiadev/device-sony-common-init"           path="hardware/sony/init"                   remote="github" revision="master" />
  <project name="sonyxperiadev/packages-apps-FMRadio"                 path="packages/apps/FMRadio"                   remote="github" revision="master" />
+ <project name="sonyxperiadev/thermanager"          path="hardware/sony/thermanager"            remote="github" revision="master" />
+ <project name="sonyxperiadev/timekeep"               path="hardware/sony/timekeep"               remote="github" revision="master" />
+ <project name="sonyxperiadev/macaddrsetup"           path="hardware/sony/macaddrsetup"           remote="github" revision="master" />
 
  <!-- Super Benevolent -->
  <project name="SuperBenevolent/aosp-vendor-qcom-prebuilt"                path="vendor/qcom/prebuilt"                 remote="github" revision="m-mr1" />
  <project name="SuperBenevolent/aosp-vendor-sony"                         path="vendor/sony"                          remote="github" revision="m-mr1" />
 
  <!-- Cyanogen Mod -->
- <project name="CyanogenMod/android_hardware_sony_thermanager"            path="hardware/sony/thermanager"            remote="github" revision="cm-14.1" />
- <project name="CyanogenMod/android_hardware_sony_timekeep"               path="hardware/sony/timekeep"               remote="github" revision="cm-14.1" />
  <project name="CyanogenMod/android_device_qcom_common"                   path="device/qcom/common"                   remote="github" revision="cm-14.1" />
- <project name="CyanogenMod/android_hardware_sony_macaddrsetup"           path="hardware/sony/macaddrsetup"           remote="github" revision="cm-14.1" />
 
 <!-- XPERIA-satsuki-ports -->
  <project name="android_kernel_sony"                                      path="kernel/sony"                          remote="XPERIA-satsuki-ports" />
